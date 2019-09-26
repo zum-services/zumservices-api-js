@@ -1,0 +1,29 @@
+{
+  "name": "zumservices-api-js",
+  "version": "1.0.1",
+  "description": "Node.JS wrapper for ZUM Services RESTFUL API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zum-services/zumservices-api-js.git"
+  },
+  "keywords": ["ZUM Services", "ZumCoin", "ZUM", "Cryptocurrency", "CryptoNote"],
+  "author": "zumdevs <devs@zumcoin.org>",
+
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zum-services/zumservices-api-js/issues"
+  },
+  "homepage": "https://github.com/zum-services/zumservices-api-js#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
